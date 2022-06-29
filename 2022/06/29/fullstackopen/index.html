@@ -20,23 +20,27 @@
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"example.com","root":"/","images":"/images","scheme":"Gemini","darkmode":false,"version":"8.11.1","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":false,"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"Searching...","empty":"We didn't find any results for the search: ${query}","hits_time":"${hits} results found in ${time} ms","hits":"${hits} results found"}}</script><script src="/js/config.js"></script>
 
-    <meta property="og:type" content="website">
-<meta property="og:title" content="Hole&#39;s Blog">
-<meta property="og:url" content="http://example.com/index.html">
+    <meta name="description" content="關於課程這是赫爾辛基大學（可以說是芬蘭台大）的公開課程，副標題是Deep Dive Into Modern Web Development，以下是課程連結：https:&#x2F;&#x2F;fullstackopen.com&#x2F;en&#x2F;可以在課程首頁看到能學到的技術，前端主要是React，後端是Node.js+MongoDB。課程從入門的前後端，再到深入的前後端，以及其他畫龍點睛的章節如TypeScript、CI&amp;#x">
+<meta property="og:type" content="article">
+<meta property="og:title" content="FullStackOpen 2022 心得（一）">
+<meta property="og:url" content="http://example.com/2022/06/29/fullstackopen/index.html">
 <meta property="og:site_name" content="Hole&#39;s Blog">
+<meta property="og:description" content="關於課程這是赫爾辛基大學（可以說是芬蘭台大）的公開課程，副標題是Deep Dive Into Modern Web Development，以下是課程連結：https:&#x2F;&#x2F;fullstackopen.com&#x2F;en&#x2F;可以在課程首頁看到能學到的技術，前端主要是React，後端是Node.js+MongoDB。課程從入門的前後端，再到深入的前後端，以及其他畫龍點睛的章節如TypeScript、CI&amp;#x">
 <meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2022-06-29T11:32:28.000Z">
+<meta property="article:modified_time" content="2022-06-29T11:38:04.457Z">
 <meta property="article:author" content="Hole">
 <meta name="twitter:card" content="summary">
 
 
-<link rel="canonical" href="http://example.com/">
+<link rel="canonical" href="http://example.com/2022/06/29/fullstackopen/">
 
 
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":true,"isPost":false,"lang":"en","comments":"","permalink":"","path":"index.html","title":""}</script>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"en","comments":true,"permalink":"http://example.com/2022/06/29/fullstackopen/","path":"2022/06/29/fullstackopen/","title":"FullStackOpen 2022 心得（一）"}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
-<title>Hole's Blog</title>
+<title>FullStackOpen 2022 心得（一） | Hole's Blog</title>
   
 
 
@@ -66,7 +70,7 @@
 
     <a href="/" class="brand" rel="start">
       <i class="logo-line"></i>
-      <h1 class="site-title">Hole's Blog</h1>
+      <p class="site-title">Hole's Blog</p>
       <i class="logo-line"></i>
     </a>
   </div>
@@ -98,7 +102,7 @@
 
   <aside class="sidebar">
 
-    <div class="sidebar-inner sidebar-overview-active">
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
       <ul class="sidebar-nav">
         <li class="sidebar-nav-toc">
           Table of Contents
@@ -111,6 +115,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E9%97%9C%E6%96%BC%E8%AA%B2%E7%A8%8B"><span class="nav-number">1.</span> <span class="nav-text">關於課程</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E8%AA%B2%E7%A8%8B%E5%85%A7%E5%AE%B9"><span class="nav-number">2.</span> <span class="nav-text">課程內容</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Part-0-Fundamentals-of-Web-apps"><span class="nav-number">2.1.</span> <span class="nav-text">Part 0 - Fundamentals of Web apps</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Part-1-Introduction-to-React"><span class="nav-number">2.2.</span> <span class="nav-text">Part 1 - Introduction to React</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Part-2-Communicating-with-server"><span class="nav-number">2.3.</span> <span class="nav-text">Part 2 - Communicating with server</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Part-3-Programming-a-server-with-NodeJS-and-Express"><span class="nav-number">2.4.</span> <span class="nav-text">Part 3 - Programming a server with NodeJS and Express</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%AD%B8%E7%BF%92%E5%BF%83%E5%BE%97"><span class="nav-number">3.</span> <span class="nav-text">學習心得</span></a></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -157,16 +162,17 @@
 </noscript>
 
 
-    <div class="main-inner index posts-expand">
+    <div class="main-inner post posts-expand">
 
-    
+
+  
 
 
 <div class="post-block">
   
   
 
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="en">
     <link itemprop="mainEntityOfPage" href="http://example.com/2022/06/29/fullstackopen/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -180,13 +186,13 @@
     </span>
 
     <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="undefined | Hole's Blog">
+      <meta itemprop="name" content="FullStackOpen 2022 心得（一） | Hole's Blog">
       <meta itemprop="description" content="">
     </span>
       <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/2022/06/29/fullstackopen/" class="post-title-link" itemprop="url">FullStackOpen 2022 心得（一）</a>
-        </h2>
+        <h1 class="post-title" itemprop="name headline">
+          FullStackOpen 2022 心得（一）
+        </h1>
 
         <div class="post-meta-container">
           <div class="post-meta">
@@ -219,7 +225,7 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <h1 id="關於課程"><a href="#關於課程" class="headerlink" title="關於課程"></a>關於課程</h1><p><br>這是赫爾辛基大學（可以說是芬蘭台大）的公開課程，副標題是Deep Dive Into Modern Web Development，以下是課程連結：<br><a target="_blank" rel="noopener" href="https://fullstackopen.com/en/">https://fullstackopen.com/en/</a><br>可以在課程首頁看到能學到的技術，前端主要是React，後端是Node.js+MongoDB。課程從入門的前後端，再到深入的前後端，以及其他畫龍點睛的章節如TypeScript、CI&#x2F;CD、Container等等，總共分為14個部分，每個部分除了範例程式碼的實作之外，也有不少量的文字做註解，也會附上一些reference的blog文章討論來說明為何選擇範例那樣的實作方式。而在實作後也都會有練習題，而官方也有提交系統讓大家上傳練習題repo，特別的是完成了每個課程習題的人可以直接獲得課程作者的公司的面試機會（但必須是芬蘭人），如果是外國人的話依然可以在完成核心課程(Parts 0-5)足夠數量的練習題後下載課程證書。</p>
+        <h1 id="關於課程"><a href="#關於課程" class="headerlink" title="關於課程"></a>關於課程</h1><p><br>這是赫爾辛基大學（可以說是芬蘭台大）的公開課程，副標題是Deep Dive Into Modern Web Development，以下是課程連結：<br><a target="_blank" rel="noopener" href="https://fullstackopen.com/en/">https://fullstackopen.com/en/</a><br>可以在課程首頁看到能學到的技術，前端主要是React，後端是Node.js+MongoDB。課程從入門的前後端，再到深入的前後端，以及其他畫龍點睛的章節如TypeScript、CI&#x2F;CD、Container等等，總共分為14個部分，每個部分除了範例程式碼的實作之外，也有不少量的文字做註解，也會附上一些reference的blog文章討論來說明為何選擇範例那樣的實作方式。而在實作後也都會有練習題，而官方也有提交系統讓大家上傳練習題repo，特別的是完成了每個課程習題的人可以直接獲得課程作者的公司的面試機會（但必須是芬蘭人），如果是外國人的話依然可以在完成核心課程(Parts 0-5)足夠數量的練習題後下載課程證書。</p>
 <h1 id="課程內容"><a href="#課程內容" class="headerlink" title="課程內容"></a>課程內容</h1><br>
 由於我自己還只完成前幾部分的課程，就先對我已經完成的內容作簡單介紹：
 <br>
@@ -252,7 +258,6 @@
 <br><br>
 由於接下來就要搬去台北，準備研究所開學以及選指導教授的事情，課程就先停在這裡，暑假期間如果沒有什麼事情要忙的話應該還會繼續鑽研，希望這個課程心得不會只有停在（一）而已，跟NL的萬聖節影片一樣富監。
 
-      
     </div>
 
     
@@ -260,93 +265,22 @@
     
 
     <footer class="post-footer">
-        <div class="post-eof"></div>
-      
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/2022/05/23/first/" rel="prev" title="第一篇文">
+                  <i class="fa fa-chevron-left"></i> 第一篇文
+                </a>
+            </div>
+            <div class="post-nav-item">
+            </div>
+          </div>
     </footer>
   </article>
 </div>
 
-
-
-
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2022/05/23/first/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="Hole">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Hole's Blog">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="undefined | Hole's Blog">
-      <meta itemprop="description" content="">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/2022/05/23/first/" class="post-title-link" itemprop="url">第一篇文</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">Posted on</span>
-      
-
-      <time title="Created: 2022-05-23 19:55:31 / Modified: 20:36:02" itemprop="dateCreated datePublished" datetime="2022-05-23T19:55:31+08:00">2022-05-23</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-folder"></i>
-      </span>
-      <span class="post-meta-item-text">In</span>
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/life/" itemprop="url" rel="index"><span itemprop="name">life</span></a>
-        </span>
-    </span>
-
-  
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <h1 id="寫部落格"><a href="#寫部落格" class="headerlink" title="寫部落格"></a>寫部落格</h1><blockquote>
-<p>我認為一個人這一生，只需要追求一張標籤，那就是你自己的名字。 - 熊仔〈信〉feat.葉丙成</p>
-</blockquote>
-<p>雖然葉教授這樣講，但能真的做到這種境界該有多難。從小到大我也熱衷追求且樂於貼上各種標籤，包括打電動時想上鑽石菁英，高中時想考上台清交，感情上的標籤有東海校花前男友，開始工作後總自稱自己是資訊人，而我發現同樣是資訊人的兄弟姊妹們通常都有寫部落格的習慣，除了將部落格作為技術筆記之外，也有許多技術以外的分享。曾經夢想成為作家的我每次看到大家的文章都手癢難耐，趁著最近待業時比較多空閒時間，終於生出這個部落格，希望能維持不錯的更新頻率、練練文筆、養成寫作習慣，相信不管是對於未來職涯或是自己的興趣上都會有所幫助。</p>
-
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
 
 
 
